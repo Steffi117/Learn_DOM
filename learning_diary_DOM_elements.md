@@ -66,7 +66,8 @@ Option ist Auswahlmöglichkeit
 mit Select können Optionen abgefragt und geändert werden
 
 Finden:
-Zuerst zu ID/HTML: const colorSelect = document.getElementById("color");
+Zuerst zu ID/HTML:
+const colorSelect = document.getElementById("color");
 
 colorSelect.value - auf Eigenschaften Zugreifen und wenn danach = "green" wird die Eigenschaft geändert
 
