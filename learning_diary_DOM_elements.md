@@ -51,3 +51,28 @@ mit Mylist.interHTML Änderungen durchführen
 bei li die Änderungen eingeben
 
 Es braucht wieder eine Nachfrage, da die KI sonst einfach den Code ausspuckt.
+
+
+select/option:
+select ist Auswahlfeld
+Option ist Auswahlmöglichkeit
+
+
+<select id="color">
+  <option value="red">Red</option>
+  <option value="green">Green</option>
+  <option value="blue">Blue</option>
+</select>
+mit Select können Optionen abgefragt und geändert werden
+
+Finden:
+Zuerst zu ID/HTML: const colorSelect = document.getElementById("color");
+
+colorSelect.value - auf Eigenschaften Zugreifen und wenn danach = "neu" wird die Eigenschaft geändert
+
+colorSelect.selectedIndex – Position der Auswahl: 0 für die erste Option, 1 für die zweite,...
+
+colorSelect.options – alle Optionen im Auswahlfeld
+
+<option value="red">Red</option>
+bei Option wird JavaScriptwert und Text des Auswahlfeldes extra behandelt
