@@ -30,3 +30,24 @@ Mit `document` kannst du zum Beispiel:
 Diese Antwort ist für mich sehr verständlich. Sie ist meinem Level gut angepasst. Vermutlich ist dies, da sich die KI meine Eingaben merkt und so das Level angepasst lässt. Es wird mir mehr erörtert als zu Beginn.
 
 How can I access the list "myList" in the html file?:
+<ul id="myList">
+ul wird immer benötigt, wenn man eine Liste ohne fester Reihenfolge hat.
+Mit const myList = document.getElementById("myList"); finde ich es auch in meinem JavaSkript
+zum Schluss kommt noch eine Verlinkung in die Browser Developer console mit console.log(myList);
+
+die Nachfrage warum ul wurde mir sehr einfach erklärt, mir kommt vor, dass nun aber viele Codes in der KI angezeigt werden, die man wieder seperat hinterfragen muss.
+
+How can I change the list "myList" in the html file?
+
+const myList = document.getElementById("myList");
+alles nach = sucht nach Liste auf Website
+Const speichert gefundenes element unter JavaScriptNamen
+
+myList.innerHTML = `
+  <li>Apfel</li>
+  <li>Banane</li>
+`;
+mit Mylist.interHTML Änderungen durchführen
+bei li die Änderungen eingeben
+
+Es braucht wieder eine Nachfrage, da die KI sonst einfach den Code ausspuckt.
